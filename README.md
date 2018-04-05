@@ -1,5 +1,7 @@
 # Flask Hello World
 
+Visit `/` to receive an inspiring greeting of world peace, or `/hello/YOURNAME/` or `/hola/YOURNAME` to receive a greeting in English or Spanish.
+
 ## To Run
 
 All commands to be run from inside the repository directory.
