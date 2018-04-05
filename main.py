@@ -3,9 +3,13 @@ import os
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/<name>/')
+@app.route('hello/<name>/')
 def hello_name(name):
     return 'Hello, {}!'.format(name)
+
+@app.route('hola/<name>/')
+def hola_name(name):
+    return 'Hola, {}!'.format(name)
 
 @app.route('/')
 def hello_world():
